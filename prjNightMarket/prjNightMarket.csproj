@@ -126,6 +126,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\LinqController.cs" />
     <Compile Include="Controllers\MemberController.cs" />
     <Compile Include="Controllers\NightMarketController.cs" />
     <Compile Include="Global.asax.cs">
@@ -181,6 +182,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\LinqExpression\" />
     <Folder Include="Views\PagingSample\" />
   </ItemGroup>
   <ItemGroup>
