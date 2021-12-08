@@ -1,12 +1,23 @@
-﻿@model IEnumerable<prjNightMarket.Models.NightMarket>
+﻿@*在View檢視頁面使用IPagedList型別的@Html.PagedListPager()方法*@
+@using PagedList.Mvc
+@using PagedList
+
+@model IPagedList<prjNightMarket.Models.NightMarket>
 
 @{
     ViewBag.Title = "台中各大夜市";
 }
+@*引用PagedList套件的樣式檔，負責分頁的按鈕排版和樣式，安裝套件時，會自動新增至Conent資料夾下*@
+<link href="~/Content/PagedList.css" rel="stylesheet" />
 
 <h2>台中各大夜市</h2>
 
-<table class="table">
+
+<p>
+    @Html.ActionLink("請登入","Create","Member")如果您沒有帳戶
+</p>
+
+<table class="table table-bordered table-hover">
     <tr>
         <th>編號</th>
         <th>名稱</th>
@@ -38,5 +49,7 @@
         </td>
     </tr>
 }
-
 </table>
+
+@*第一個參數是指定要顯示的Model，第二個參數是指定要連結的動作方法和頁次*@
+@Html.PagedListPager(Model,page => Url.Action("Index",new { page }))

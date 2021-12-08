@@ -61,3 +61,7 @@ C:\Users\User\source\repos\prjNightMarket\prjNightMarket\obj\Debug\prjNightMarke
 C:\Users\User\source\repos\prjNightMarket\prjNightMarket\obj\Debug\prjNightMarket.csproj.CopyComplete
 C:\Users\User\source\repos\prjNightMarket\prjNightMarket\obj\Debug\prjNightMarket.dll
 C:\Users\User\source\repos\prjNightMarket\prjNightMarket\obj\Debug\prjNightMarket.pdb
+C:\Users\User\source\repos\prjNightMarket\prjNightMarket\bin\PagedList.dll
+C:\Users\User\source\repos\prjNightMarket\prjNightMarket\bin\PagedList.Mvc.dll
+C:\Users\User\source\repos\prjNightMarket\prjNightMarket\bin\PagedList.xml
+C:\Users\User\source\repos\prjNightMarket\prjNightMarket\bin\PagedList.Mvc.xml
