@@ -65,3 +65,8 @@ C:\Users\User\source\repos\prjNightMarket\prjNightMarket\bin\PagedList.dll
 C:\Users\User\source\repos\prjNightMarket\prjNightMarket\bin\PagedList.Mvc.dll
 C:\Users\User\source\repos\prjNightMarket\prjNightMarket\bin\PagedList.xml
 C:\Users\User\source\repos\prjNightMarket\prjNightMarket\bin\PagedList.Mvc.xml
+C:\Users\User\source\repos\prjNightMarket\prjNightMarket\bin\EntityFramework.dll
+C:\Users\User\source\repos\prjNightMarket\prjNightMarket\bin\EntityFramework.SqlServer.dll
+C:\Users\User\source\repos\prjNightMarket\prjNightMarket\bin\EntityFramework.xml
+C:\Users\User\source\repos\prjNightMarket\prjNightMarket\bin\EntityFramework.SqlServer.xml
+C:\Users\User\source\repos\prjNightMarket\prjNightMarket\bin\zh-Hant\EntityFramework.resources.dll
